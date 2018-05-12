@@ -1,0 +1,31 @@
+_repo: Negro-Folk-RhymesWise-and-Otherwise--With-a-Study_27195
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Talley, Thomas Washington
+    gutenberg_agent_id: '32527'
+    url: http://www.gutenberg.org/2009/agents/32527
+description: ''
+gutenberg_issued: '2008-11-07'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '27195'
+  lccn: '22001477'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Folk songs, English -- United States'
+- !lcsh 'African Americans -- Poetry'
+- !lcsh 'American poetry -- African American authors'
+- !lcsh 'Folk poetry, American'
+- !lcsh 'African Americans -- Songs and music'
+- !lcc 'PS'
+title: 'Negro Folk Rhymes
+
+  Wise and Otherwise: With a Study'
+url: http://www.gutenberg.org/ebooks/27195
