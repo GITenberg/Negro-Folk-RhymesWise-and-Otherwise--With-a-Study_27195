@@ -1,32 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/27195">
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/32527">
-        <pgterms:name>Talley, Thomas Washington</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166697</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1c8163bd747540d0b4d0633b591ef33b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:50:47.816606</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-0.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N84978ab69a17408d9f5b82f8f65a3b8b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N19ae4edbcc2441a3becc92c68253e85f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121074</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N59dfa2565315474bb7fb401735bfdbf5">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">769151</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:50:54.706459</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/295a-tenn2.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">864</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:25:06</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb0b82cd70fa845a78c2fbab732d368a1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/295b-tenn3.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">663</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N88bbc839aed748ad9d55724e390a4241">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:29:34</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/038-opossum.midi">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N483573b8b19e4afbbe8ae37233300830">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">885</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T05:44:28</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">806891</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6176812a9d4743da9e347fd64fa7aab2">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne78569d3442e4fc0b8a590772e699f16">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/295c-tenn4.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">340</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:33:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3d883566392547419e6d19e4fb4c0e98">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N118a6010626348f2bf614b8b6ba663db">
-        <rdf:value>African Americans -- Poetry</rdf:value>
+      <rdf:Description rdf:nodeID="Ne355f143ae2c4ee6be764f165b845e69">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Folk poetry, American</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/321b-322-bigquills.midi">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T21:08:22</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd74c16d07f934004b104b20bf531200a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1737</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/284b-hailstorm.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T07:47:52</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne657de9cab8a462988148ff2745805dd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6ed56f3d8dfc42c1b2528f29feaeb18c">
+        <rdf:value>African Americans -- Songs and music</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/294a-alabama.midi">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/321a-littlequills.midi">
         <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">836</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:15:30</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:49:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">531</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N986713e5052c44cc94e2bde219c794b5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          <rdf:Description rdf:nodeID="Nfaf3137c0f8d4e048ebb4dd1a5cc95c9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -34,397 +179,242 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/029-jaybird.midi">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-17T06:59:00</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2573ea6c7c474a2e8233b29064e413a5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1147</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7448e5fa3bd94b5a8984b218f7dce7d6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/294b-tenn1.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:18:46</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5aa59d8beebf455991e5ca34c1ae4641">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8d0138bba4a546b9ad94b85956ba88a3">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Folk songs, English -- United States</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/295b-tenn3.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfed5e3a5bf9d447a80b1828ffa34b9bd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:29:34</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">663</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:marc010>22001477</pgterms:marc010>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T11:07:55.098800</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183115</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N17fb8ea0083e4309ac7d216381072cd0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N3acb72aac72242d3b208bf200967f3f5">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PS</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/27195-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573770</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb1e2c9fd7f1148ad8765bfde49ff942b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:06</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/205-frog.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N684f522101bb4cb09c8691c11ee192d5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1076</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T06:30:52</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/295c-tenn4.midi">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c4405a60bb0459aa8d71e7cf97ccb7a">
+          <rdf:Description rdf:nodeID="N91dc861fc5b1422ea6a34b86bea3e59d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">340</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:33:42</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.kindle.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:20</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">649020</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355240</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N82a9e680486849c1b73a937af49e69db">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N94e8f4104d034279a1f4faf1ef99c4ce">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:48:56.583510</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb01a014abb1443b092622670696d3811">
+      <rdf:Description rdf:nodeID="N61c4e9452b994660a7d6702ca4d8afa7">
+        <rdf:value>African Americans -- Poetry</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Folk poetry, American</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nf173afa7ae9a45ebb7ae1b69fb2aa2a2">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819017</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:50:51.672516</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd2115c78aeba4751bccad33fdc04cf6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/276-jonah.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T06:56:40</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nab1c2cfd83e74c8cb48ecafa9824aa04">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Ned75494000e142588fcc795e4c6894e2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">752</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.kindle.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/294b-tenn1.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:48:51.415679</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">265520</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:18:46</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8f050451a3904b9d8b1d0c9ca0feb77e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="Ne07e2c94961c4aafb19fb04a661dafc8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-0.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121074</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0ab7fbcfb75f4a4998d2e5feae69360f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:22</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3f4ccd4391474fdb9b88fce4fcce5412">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N992e5a81569840afa88378547f0fea42">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">832796</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:48:49.341746</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.epub.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc6f6dcd3ccf4e68a7e9834bb29cc193">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:48:47.017087</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168300</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/042-blacksheep.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T06:16:18</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1009</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndf7be3fc73fd4f1e8dc64361e7735f7e">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N989a31c7b4c4448c8881c89b83e4d581">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191651</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T11:08:01.953940</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</pgterms:downloads>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-07</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/284a-hollydink.midi">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T07:18:06</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N08d49ccb6ef74046887d15fb9fda7dd8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">768</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nd2a7ade309784bbfb236e769fe61081e">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>African Americans -- Songs and music</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/321a-littlequills.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N629dec2ff74c4d1983a4621c3493921e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">531</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:49:28</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/295a-tenn2.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5679caa2d83b498bab2b6662fd9eac7d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:25:06</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">864</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:22</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1cdf60e6b2434b45b50645ae6a354494">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7fce88f71e3944e58f6d65c1679ac181">
+          <rdf:Description rdf:nodeID="Nc70889b657dd42db9c40760b3520d1a6">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1d088125676941579d1a7f6ea3a5950b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121206</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:22</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.rdf">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2f16987b3198471994456cbe7544f4af">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="N2790fcfef9604eb5a03cf2bd91dfd0ed">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N413ca64e6dfc4abaa8149bfec2a4e656">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">806891</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:21:12.885229</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23865</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Negro Folk Rhymes
-Wise and Otherwise: With a Study</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27195.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831563</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:50:47.189630</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2cb9cbf5b9004ef18b3139fa6f4a7cd7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nd91f91bd8baa43c18a482cb733ac9827">
+      <rdf:Description rdf:nodeID="N7bcceedcd8aa4eeb9e94a0d6b4c94574">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355240</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:20</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/042-blacksheep.midi">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T06:16:18</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N254abdf5a1d14effa3d0004cd38c6467">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="N8e1f4f96b66c43a5bd90fd8684d4604a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1009</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/27195-h.htm">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Necb27de5aed144b8a9702852c8b268d0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573770</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:06</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N760e5dec0b834e2a80783ecd1a9d2b9e">
+      <rdf:Description rdf:nodeID="N3d79636d8cb94c13a41dbd2863bdb61a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>American poetry -- African American authors</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-0.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">354323</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/294a-alabama.midi">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">836</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T20:15:30</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N546a6c06faf7495b8d6d558369726c1b">
+          <rdf:Description rdf:nodeID="N00a2f143374d4c4dad563e34094479af">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc010>22001477</pgterms:marc010>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/284a-hollydink.midi">
+        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">768</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T07:18:06</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4cfdc90c3b0148b3a8569142726b520a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-07</dcterms:issued>
+    <dcterms:title>Negro Folk Rhymes
+Wise and Otherwise: With a Study</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N70c8cabb3e114811906a15c4e9068b08">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PS</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N8a48688ea0184a7a9831eb612b233d51">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0f34aae43ed84f70913bc42ce1c837d1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Folk songs, English -- United States</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-0.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9b5de193644d4e999f0ab79984c841da">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">354323</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-07T15:21:04</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/038-opossum.midi">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6adb8ef66e3f44e1991045a625ccde9c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T05:44:28</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">885</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/284b-hailstorm.midi">
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T07:47:52</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1ffcb308efb0418ca8a9f6b9e26c98b2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27195/27195-h/music/321b-322-bigquills.midi">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1737</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-18T21:08:22</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/27195"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7ea75e58f4194d149e0171b527314f50">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/32527">
+        <pgterms:name>Talley, Thomas Washington</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
 </rdf:RDF>
